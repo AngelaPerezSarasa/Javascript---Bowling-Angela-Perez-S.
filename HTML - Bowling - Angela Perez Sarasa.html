@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+       
+}
+table th {
+    background-color: #CCCCFF;
+}
+table td {
+    background-color: #eee;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Bowling Scoreboard - Angela Perez Sarasa</h2>
+
+<table style="width:100%">
+<tr>
+    <th> </th>
+    <th colspan="2">Frame 1</th>
+    <th colspan="2">Frame 2</th>
+    <th colspan="2">Frame 3</th>
+    <th colspan="2">Frame 4</th>
+    <th colspan="2">Frame 5</th>
+    <th colspan="2">Frame 6</th>
+    <th colspan="2">Frame 7</th>
+    <th colspan="2">Frame 8</th>
+    <th colspan="2">Frame 9</th>
+    <th colspan="3">Frame 10</th>
+    <th >Final Score</th>
+</tr>
+<tr>
+    <th rowspan="2" id="p1">Player1</th>
+    <td id="f1p1b1t"> </td>
+    <td id="f1p1b2t"> </td>
+    <td id="f2p1b1t"> </td>
+    <td id="f2p1b2t"> </td>
+    <td id="f3p1b1t"> </td>
+    <td id="f3p1b2t"> </td>
+    <td id="f4p1b1t"> </td>
+    <td id="f4p1b2t"> </td>
+    <td id="f5p1b1t"> </td>
+    <td id="f5p1b2t"> </td>
+    <td id="f6p1b1t"> </td>
+    <td id="f6p1b2t"> </td>
+    <td id="f7p1b1t"> </td>
+    <td id="f7p1b2t"> </td>
+    <td id="f8p1b1t"> </td>
+    <td id="f8p1b2t"> </td>
+    <td id="f9p1b1t"> </td>
+    <td id="f9p1b2t"> </td>
+    <td id="f10p1b1t"> </td>
+    <td id="f10p1b2t"> </td>
+    <td id="f10p1b3t"> </td>
+    <th rowspan="2" id="p1t">0</th>
+</tr>
+<tr>
+    <th colspan="2" id="f1p1t"> </th>
+    <th colspan="2" id="f2p1t"> </th>
+    <th colspan="2" id="f3p1t"> </th>
+    <th colspan="2" id="f4p1t"> </th>
+    <th colspan="2" id="f5p1t"> </th>
+    <th colspan="2" id="f6p1t"> </th>
+    <th colspan="2" id="f7p1t"> </th>
+    <th colspan="2" id="f8p1t"> </th>
+    <th colspan="2" id="f9p1t"> </th>
+    <th colspan="3" id="f10p1t"> </th>
+</tr>
+<tr>
+    <th rowspan="2" id="p2">Player2</th>
+    <td id="f1p2b1t"> </td>
+    <td id="f1p2b2t"> </td>
+    <td id="f2p2b1t"> </td>
+    <td id="f2p2b2t"> </td>
+    <td id="f3p2b1t"> </td>
+    <td id="f3p2b2t"> </td>
+    <td id="f4p2b1t"> </td>
+    <td id="f4p2b2t"> </td>
+    <td id="f5p2b1t"> </td>
+    <td id="f5p2b2t"> </td>
+    <td id="f6p2b1t"> </td>
+    <td id="f6p2b2t"> </td>
+    <td id="f7p2b1t"> </td>
+    <td id="f7p2b2t"> </td>
+    <td id="f8p2b1t"> </td>
+    <td id="f8p2b2t"> </td>
+    <td id="f9p2b1t"> </td>
+    <td id="f9p2b2t"> </td>
+    <td id="f10p2b1t"> </td>
+    <td id="f10p2b2t"> </td>
+    <td id="f10p2b3t"> </td>
+    <th rowspan="2" id="p2t">0</th>
+</tr>
+<tr>
+    <th colspan="2" id="f1p2t"> </th>
+    <th colspan="2" id="f2p2t"> </th>
+    <th colspan="2" id="f3p2t"> </th>
+    <th colspan="2" id="f4p2t"> </th>
+    <th colspan="2" id="f5p2t"> </th>
+    <th colspan="2" id="f6p2t"> </th>
+    <th colspan="2" id="f7p2t"> </th>
+    <th colspan="2" id="f8p2t"> </th>
+    <th colspan="2" id="f9p2t"> </th>
+    <th colspan="3" id="f10p2t"> </th>
+</tr>
+<tr>
+    <th rowspan="2" id="p3">Player3</th>
+    <td id="f1p3b1t"> </td>
+    <td id="f1p3b2t"> </td>
+    <td id="f2p3b1t"> </td>
+    <td id="f2p3b2t"> </td>
+    <td id="f3p3b1t"> </td>
+    <td id="f3p3b2t"> </td>
+    <td id="f4p3b1t"> </td>
+    <td id="f4p3b2t"> </td>
+    <td id="f5p3b1t"> </td>
+    <td id="f5p3b2t"> </td>
+    <td id="f6p3b1t"> </td>
+    <td id="f6p3b2t"> </td>
+    <td id="f7p3b1t"> </td>
+    <td id="f7p3b2t"> </td>
+    <td id="f8p3b1t"> </td>
+    <td id="f8p3b2t"> </td>
+    <td id="f9p3b1t"> </td>
+    <td id="f9p3b2t"> </td>
+    <td id="f10p3b1t"> </td>
+    <td id="f10p3b2t"> </td>
+    <td id="f10p3b3t"> </td>
+    <th rowspan="2" id="p3t">0</th>
+</tr>
+<tr>
+    <th colspan="2" id="f1p3t"> </th>
+    <th colspan="2" id="f2p3t"> </th>
+    <th colspan="2" id="f3p3t"> </th>
+    <th colspan="2" id="f4p3t"> </th>
+    <th colspan="2" id="f5p3t"> </th>
+    <th colspan="2" id="f6p3t"> </th>
+    <th colspan="2" id="f7p3t"> </th>
+    <th colspan="2" id="f8p3t"> </th>
+    <th colspan="2" id="f9p3t"> </th>
+    <th colspan="3" id="f10p3t"> </th>
+</tr>
+<tr>
+    <th rowspan="2" id="p4">Player4</th>
+    <td id="f1p4b1t"> </td>
+    <td id="f1p4b2t"> </td>
+    <td id="f2p4b1t"> </td>
+    <td id="f2p4b2t"> </td>
+    <td id="f3p4b1t"> </td>
+    <td id="f3p4b2t"> </td>
+    <td id="f4p4b1t"> </td>
+    <td id="f4p4b2t"> </td>
+    <td id="f5p4b1t"> </td>
+    <td id="f5p4b2t"> </td>
+    <td id="f6p4b1t"> </td>
+    <td id="f6p4b2t"> </td>
+    <td id="f7p4b1t"> </td>
+    <td id="f7p4b2t"> </td>
+    <td id="f8p4b1t"> </td>
+    <td id="f8p4b2t"> </td>
+    <td id="f9p4b1t"> </td>
+    <td id="f9p4b2t"> </td>
+    <td id="f10p4b1t"> </td>
+    <td id="f10p4b2t"> </td>
+    <td id="f10p4b3t"> </td>
+    <th rowspan="2" id="p4t">0</th>
+</tr>
+<tr>
+    <th colspan="2" id="f1p4t"> </th>
+    <th colspan="2" id="f2p4t"> </th>
+    <th colspan="2" id="f3p4t"> </th>
+    <th colspan="2" id="f4p4t"> </th>
+    <th colspan="2" id="f5p4t"> </th>
+    <th colspan="2" id="f6p4t"> </th>
+    <th colspan="2" id="f7p4t"> </th>
+    <th colspan="2" id="f8p4t"> </th>
+    <th colspan="2" id="f9p4t"> </th>
+    <th colspan="3" id="f10p4t"> </th>
+</tr>
+<tr>
+    <th rowspan="2" id="p5">Player5</th>
+    <td id="f1p5b1t"> </td>
+    <td id="f1p5b2t"> </td>
+    <td id="f2p5b1t"> </td>
+    <td id="f2p5b2t"> </td>
+    <td id="f3p5b1t"> </td>
+    <td id="f3p5b2t"> </td>
+    <td id="f4p5b1t"> </td>
+    <td id="f4p5b2t"> </td>
+    <td id="f5p5b1t"> </td>
+    <td id="f5p5b2t"> </td>
+    <td id="f6p5b1t"> </td>
+    <td id="f6p5b2t"> </td>
+    <td id="f7p5b1t"> </td>
+    <td id="f7p5b2t"> </td>
+    <td id="f8p5b1t"> </td>
+    <td id="f8p5b2t"> </td>
+    <td id="f9p5b1t"> </td>
+    <td id="f9p5b2t"> </td>
+    <td id="f10p5b1t"> </td>
+    <td id="f10p5b2t"> </td>
+    <td id="f10p5b3t"> </td>
+    <th rowspan="2" id="p5t">0</th>
+</tr>
+<tr>
+    <th colspan="2" id="f1p5t"> </th>
+    <th colspan="2" id="f2p5t"> </th>
+    <th colspan="2" id="f3p5t"> </th>
+    <th colspan="2" id="f4p5t"> </th>
+    <th colspan="2" id="f5p5t"> </th>
+    <th colspan="2" id="f6p5t"> </th>
+    <th colspan="2" id="f7p5t"> </th>
+    <th colspan="2" id="f8p5t"> </th>
+    <th colspan="2" id="f9p5t"> </th>
+    <th colspan="3" id="f10p5t"> </th>
+</tr>
+<tr>
+    <th rowspan="2" id="p6">Player6</th>
+    <td id="f1p6b1t"> </td>
+    <td id="f1p6b2t"> </td>
+    <td id="f2p6b1t"> </td>
+    <td id="f2p6b2t"> </td>
+    <td id="f3p6b1t"> </td>
+    <td id="f3p6b2t"> </td>
+    <td id="f4p6b1t"> </td>
+    <td id="f4p6b2t"> </td>
+    <td id="f5p6b1t"> </td>
+    <td id="f5p6b2t"> </td>
+    <td id="f6p6b1t"> </td>
+    <td id="f6p6b2t"> </td>
+    <td id="f7p6b1t"> </td>
+    <td id="f7p6b2t"> </td>
+    <td id="f8p6b1t"> </td>
+    <td id="f8p6b2t"> </td>
+    <td id="f9p6b1t"> </td>
+    <td id="f9p6b2t"> </td>
+    <td id="f10p6b1t"> </td>
+    <td id="f10p6b2t"> </td>
+    <td id="f10p6b3t"> </td>
+    <th rowspan="2" id="p6t">0</th>
+</tr>
+<tr>
+    <th colspan="2" id="f1p6t"> </th>
+    <th colspan="2" id="f2p6t"> </th>
+    <th colspan="2" id="f3p6t"> </th>
+    <th colspan="2" id="f4p6t"> </th>
+    <th colspan="2" id="f5p6t"> </th>
+    <th colspan="2" id="f6p6t"> </th>
+    <th colspan="2" id="f7p6t"> </th>
+    <th colspan="2" id="f8p6t"> </th>
+    <th colspan="2" id="f9p6t"> </th>
+    <th colspan="3" id="f10p6t"> </th>
+</tr>
+</tr>
+
+</table>
+
+<br>
+
+<div id="HideScoreForm" style="display:none;">
+<form id="Frame1" onsubmit="return false;">
+    <br>
+    - Enter the frame number and scores of each ball<br>
+      * Strikes --> Ball 1 = 10 , Ball 2 = 0.<br>
+    - Ball 3 will only be counted on frame 10 when Strike or Spare.<br><br>
+    Frame:<input  id="frame">
+    <br><br>
+    Player 1 Ball 1: <input  id="p1b1"> Ball 2: <input id="p1b2"> Ball 3: <input id="p1b3"><br>
+    Player 2 Ball 1: <input  id="p2b1"> Ball 2: <input id="p2b2"> Ball 3: <input id="p2b3">
+    <br>
+    Player 3 Ball 1: <input  id="p3b1"> Ball 2: <input id="p3b2"> Ball 3: <input id="p3b3">
+    <br>
+    Player 4 Ball 1: <input  id="p4b1"> Ball 2: <input id="p4b2"> Ball 3: <input id="p4b3">
+    <br>
+    Player 5 Ball 1: <input  id="p5b1"> Ball 2: <input id="p5b2"> Ball 3: <input id="p5b3">
+    <br>
+    Player 6 Ball 1: <input  id="p6b1"> Ball 2: <input id="p6b2"> Ball 3: <input id="p6b3">
+    <br>
+    <br>
+    <input type="button" onclick="FrameScore()" value="Submit">
+    <input type="button" value="Hide" onClick="document.getElementById('HideScoreForm').style.display='none';">
+</form>
+</div>
+<input type="button" value="Add Score" onClick="document.getElementById('HideScoreForm').style.display='block';">
+
+<br><br>
+
+<p id="Enterplayers">Enter the player's names.</p>
+
+<form id="myForm" onsubmit="return false;">
+    Player 1: <input id="player1"><br>
+    Player 2: <input id="player2"><br>
+    Player 3: <input id="player3"><br>
+    Player 4: <input id="player4"><br>
+    Player 5: <input id="player5"><br>
+    Player 6: <input id="player6"><br><br>
+  <input type="button" onclick="FunctionPlayers()" value="Submit and Start">
+</form>
+
+<script src="Playernames.js"></script>
+<script src="FrameScore.js"></script>
+
+
+</body>
+</html>
